@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Name</title>
+    <!-- // <link rel="stylesheet" href="./style.css" /> -->
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+
+      body {
+        line-height: 1.6;
+      }
+
+      .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      header {
+        background: #333;
+        color: #fff;
+        padding: 20px 0;
+      }
+
+      header h1 {
+        text-align: center;
+      }
+
+      header nav ul {
+        list-style: none;
+        text-align: center;
+      }
+
+      header nav ul li {
+        display: inline;
+        margin: 0 15px;
+      }
+
+      header nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      header nav ul li a:hover {
+        text-decoration: underline;
+      }
+
+      section {
+        padding: 40px 0;
+      }
+
+      section#home {
+        background: #f4f4f4;
+        text-align: center;
+      }
+
+      section#home h2 {
+        margin-bottom: 20px;
+      }
+
+      section#menu .menu-item {
+        border-bottom: 1px solid #ddd;
+        padding: 15px 0;
+      }
+
+      section#menu .menu-item h3 {
+        display: inline-block;
+        margin: 0;
+      }
+
+      section#menu .menu-item span {
+        float: right;
+        font-weight: bold;
+      }
+
+      section#about {
+        background: #f4f4f4;
+        text-align: center;
+      }
+
+      footer {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      footer h2 {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Restaurant Name</h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home">
+      <div class="container">
+        <h2>Welcome to Our Restaurant</h2>
+        <p>Enjoy the finest dishes and a great atmosphere.</p>
+      </div>
+    </section>
+
+    <section id="menu">
+      <div class="container">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+          <h3>Dish Name 1</h3>
+          <p>Description of Dish 1</p>
+          <span>$12.99</span>
+        </div>
+        <div class="menu-item">
+          <h3>Dish Name 2</h3>
+          <p>Description of Dish 2</p>
+          <span>$14.99</span>
+        </div>
+        <div class="menu-item">
+          <h3>Dish Name 3</h3>
+          <p>Description of Dish 3</p>
+          <span>$16.99</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>Learn more about our story and values.</p>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>123 Main St, Anytown, USA</p>
+        <p>Email: info@restaurant.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>&copy; 2024 Restaurant Name. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
